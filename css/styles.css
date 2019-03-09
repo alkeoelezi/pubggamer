@@ -1,0 +1,81 @@
+#title {
+  color: #fff;
+  background: linear-gradient( #2980b9, #6dd5fa, #ffffff);
+}
+
+.contanier-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: 800;
+}
+
+p {
+  color: grey;
+  font-family: Montserrat;
+}
+
+.fa-apple {
+  margin-right: 5px;
+}
+
+.fa-android {
+  margin-right: 5px;
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  box-shadow: 1px;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: Montserrat;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 110%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #5396c1;
+  margin-bottom: 1rem;
+
+}
+
+.icon:hover {
+  color: #2586c4;
+  transition: 1s;
+}
