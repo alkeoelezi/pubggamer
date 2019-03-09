@@ -48,6 +48,10 @@ p {
   box-shadow: 1px;
 }
 
+.navbar-brand:hover {
+  border-bottom: 1px soild black;
+}
+
 .nav-item {
   padding: 0 18px;
   font-family: Montserrat;
