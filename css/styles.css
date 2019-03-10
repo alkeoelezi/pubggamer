@@ -13,6 +13,7 @@
 }
 
 .phone:hover {
+  
   transform: rotate(5deg);
   transition: 1s;
 }
@@ -38,7 +39,7 @@ h1:hover {
 
 
 h2 {
-  font-family: montserrat;
+  font-family: "montserrat";
   font-weight: 800;
 }
 
@@ -154,26 +155,34 @@ p {
   
 }
 
+#pricing {
+  padding: 10%;
+}
+
+#cta {
+  background: linear-gradient( #fff,#6dd5fa, #6dd5fa, #6dd5fa);
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.last-text {
+  text-align: center;
+  font-family: ubuntu;
+  font-size:3.5rem;
+  line-height: 1.5;
+  
+}
+
+.pricing-col {
+  padding:3% 1%;
+}
+
 .press-logo {
   transition: 1s;
   width: 23%
   
-}
-
-.press-logo:hover {
-  transform: scale(1.1);
-  transition: 1s;
-}
-
-
-.sponsor {
   
-  background-color: #6dd5fa;
-  margin-bottom:0;
-  text-align: center;
-  padding-top: 10%;
-  font-family: ubuntu;
-  transition: 1s;
 }
 
 .sponsor:hover {
@@ -185,18 +194,61 @@ p {
   text-align: center;
 }
 
-#pricing {
-  padding: 10%;
-}
+.plan:hover {
+  background: linear-gradient( #fff,#d6d6d62c, #ffffff);
+  text-shadow: 1px 1px 1px grey;
 
-.pricing-col {
-  padding:3% 1%;
-}
 
-.card {
-  transition: 1s;
+
+
 }
 .card:hover {
   box-shadow: 0 0 15px rgba(10, 10, 10, 0.295); 
   transition: 1s;
+}
+
+.sponsor {
+  
+  background-color: #;
+  margin-bottom:0;
+  text-align: center;
+  padding-top: 10%;
+  font-family: ubuntu;
+  transition: 1s;
+}
+.press-logo:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+.card {
+  transition: 1s;
+}
+
+.download-button2 {
+  margin: 2%;
+}
+
+#footer {
+  padding: 2% 10%;
+  text-align: center;
+  transition: 1s;
+ 
+}
+
+
+.social {
+  padding: 1%;
+  transition: 0.5s;
+}
+
+.social:hover {
+  color: #2586c4;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.copyright {
+  font-family: ubuntu;
 }
