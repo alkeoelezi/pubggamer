@@ -94,10 +94,30 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-    <h2>If you like this game this website is perfect for you.</h2>
-    <img class="second-image" src="images/dog-img.jpg" alt="dog-profile">
-    <h3 class="tirana">Tirana, Albania</h3>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <img class="second-image" src="images/dog-img.jpg" alt="dog-profile">
+          <h2>If you like this game this website is perfect for you.</h2>
+          <h3 class="tirana">Tirana, Albania</h3>
+        </div>
+        <div class="carousel-item" >
+          <img class="third-image" src="images/pubg-mobile.jpg" alt="pubg-mobile">
+          <h2>A lot of competition all over the world.</h2>
+          <h3 class="tirana">Sydney, Australia</h3>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    
+ 
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
@@ -108,11 +128,12 @@
 
   <!-- Press -->
 
+  <h2 class="sponsor">Our Sponsorships</h2>
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -121,34 +142,57 @@
 
   <section id="pricing">
 
-    <h2>A Plan for everyone that want a good rank at this Game</h2>
-    <p>Very Cheap price and we offer 100% guaranteed product.</p>
+    <h2 class="plan">A Plan for everyone that want a good rank at this Game</h2>
+    <p class="plan">Very Cheap price and we offer 100% guaranteed product.</p>
 
 
-    <h3>Trial</h3>
-    <h2>Free</h2>
-    <p>30 Coins Per Day</p>
-    <p>2 Gems Per Day</p>
-    <p>1 Free Spin</p>
-    <button type="button">Sign Up</button>
+    <div class="card-deck mb-3 text-center">
+      <div class="pricing-col col-md-6 col-lg-4 ">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-bold">Free</h4>
+        </div>
+     
 
+        <div class="card-body">
+  <h3>Trial</h3>
+  <p>30 Coins Per Day</p>
+  <p>2 Gems Per Day</p>
+  <p>1 Free Spin</p>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <div class="pricing-col col-md-6 col-lg-4 ">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-bold">Pro</h4>
+        </div>
 
-    <h3>Standart</h3>
-    <h2>$49 / mo</h2>
-    <p>900 Coins Per Day</p>
-    <p>20 Gems Per Day</p>
-    <p>3 Premium Free Spin</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Pro</h3>
-    <h2>$119 / mo</h2>
-    <p>2000 Coins Per Day</p>
-    <p>50 Gems Per Day</p>
-    <p>5 Premium Free Spin</p>
-    <p>1 Premium Ultra Rare Skin</p>
-    <button type="button">Sign Up</button>
-
+        <div class="card-body">
+  <h2>$49 / mo</h2>
+  <p>900 Coins Per Day</p>
+  <p>20 Gems Per Day</p>
+  <p>3 Premium Free Spin</p>          
+          <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+        </div>
+      </div>
+    </div>
+    <div class="pricing-col col-md-12 col-lg-4 ">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-bold">Enterprise</h4>
+        </div>
+        <div class="card-body">
+  <h2>$119 / mo</h2>
+  <p>2000 Coins & 50 Gems Per Day</p>
+  <p>5 Premium Free Spin</p>
+  <p>1 Premium Ultra Rare Skin</p>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Get Started</button>       
+        </div>
+      </div>
+    </div>
+  </div>
   </section>
 
 
