@@ -192,12 +192,12 @@ p {
 
 .plan {
   text-align: center;
+  transition: 1s;
 }
 
 .plan:hover {
-  background: linear-gradient( #fff,#d6d6d62c, #ffffff);
   text-shadow: 1px 1px 1px grey;
-
+  transition: 1s;
 
 
 
